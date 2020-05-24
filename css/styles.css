@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+body{
+    background-color: darkred;
+    font-family: "Helvetica", serif;
+}
+
+
+/* Navbar Design */
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand h1{
+    font-family: "Times New Roman", serif;
+    color: darkred;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand a:hover .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+#navlist a{
+    font-weight: bold;
+    color: #951C49;
+    text-align: center;
+}   /*End of Navbar Design*/
+
+
+/*Main Content*/
+.heading{
+    color: lightgray;
+}
+
+.row:nth-child(1){
+    margin-top: 10px;
+}
+
+.info-box{
+    background-color: lightgray;
+    margin-bottom: 20px;
+    padding-top: 2px;
+}
+
+@media (max-width: 767px){
+    .container{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
